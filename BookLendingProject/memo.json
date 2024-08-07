@@ -1,0 +1,148 @@
+{
+    "COUNTER": 18,
+    "BOOK": {
+        "3": {
+            "book_id": 3,
+            "isbn": "1",
+            "author": "Albert Camus",
+            "title": "Yabanc\u0131",
+            "price": 10.99
+        },
+        "4": {
+            "book_id": 4,
+            "isbn": "2",
+            "author": "Jean-Paul Sartre",
+            "title": "Bulant\u0131",
+            "price": 12.99
+        },
+        "5": {
+            "book_id": 5,
+            "isbn": "3",
+            "author": "Orhan Veli",
+            "title": "Beni Bu G\u00fczel Havalar Mahvetti",
+            "price": 15.99
+        },
+        "6": {
+            "book_id": 6,
+            "isbn": "4",
+            "author": "Leo Tolstoy",
+            "title": "\u0130nsan Neyle Ya\u015far",
+            "price": 14.99
+        },
+        "7": {
+            "book_id": 7,
+            "isbn": "6",
+            "author": "Isaac Newton",
+            "title": "Philosophi\u00e6 Naturalis Principia Mathematica",
+            "price": 90.99
+        },
+        "8": {
+            "book_id": 8,
+            "isbn": "7",
+            "author": "Enes U\u00e7ar",
+            "title": "Vergi Us\u00fcl Kanununa \u0130li\u015fkin A\u00e7\u0131klamar",
+            "price": 7.99
+        }
+    },
+    "USER": {
+        "1": {
+            "user_id": 1,
+            "username": "admin",
+            "password": "admin1234",
+            "name": "Enes",
+            "surname": "U\u00c3\u00a7ar",
+            "gsm_no": null,
+            "location": "Mersin",
+            "is_active": true,
+            "role": "admin"
+        },
+        "2": {
+            "user_id": 2,
+            "username": "enes",
+            "password": "1234",
+            "name": "Mahmut",
+            "surname": "Y\u0131lmaz",
+            "gsm_no": "5312345678",
+            "location": null,
+            "is_active": true,
+            "role": "customer"
+        }
+    },
+    "ENVENTORY": {
+        "9": {
+            "enventory_id": 17,
+            "book_id": 3,
+            "user_id": 2,
+            "quantity": -1,
+            "update_date": "2024-08-02 13:14:44"
+        },
+        "10": {
+            "enventory_id": 10,
+            "book_id": 4,
+            "user_id": 1,
+            "quantity": 10,
+            "update_date": "2024-08-02 12:40:25"
+        },
+        "11": {
+            "enventory_id": 11,
+            "book_id": 5,
+            "user_id": 1,
+            "quantity": 10,
+            "update_date": "2024-08-02 12:40:36"
+        },
+        "12": {
+            "enventory_id": 12,
+            "book_id": 6,
+            "user_id": 1,
+            "quantity": 10,
+            "update_date": "2024-08-02 12:40:41"
+        },
+        "13": {
+            "enventory_id": 13,
+            "book_id": 7,
+            "user_id": 1,
+            "quantity": 10,
+            "update_date": "2024-08-02 12:40:46"
+        },
+        "14": {
+            "enventory_id": 14,
+            "book_id": 8,
+            "user_id": 1,
+            "quantity": 10,
+            "update_date": "2024-08-02 12:40:50"
+        },
+        "15": {
+            "enventory_id": 15,
+            "book_id": 8,
+            "user_id": 1,
+            "quantity": -3,
+            "update_date": "2024-08-02 12:44:26"
+        },
+        "17": {
+            "enventory_id": 17,
+            "book_id": 3,
+            "user_id": 2,
+            "quantity": -1,
+            "update_date": "2024-08-02 13:14:44"
+        }
+    },
+    "PAYMENT": {
+        "16": {
+            "payment_id": 16,
+            "card_no": "1234",
+            "cvc": "000",
+            "skt": "2502"
+        }
+    },
+    "LENDING": {
+        "18": {
+            "lending_id": 18,
+            "user_id": 2,
+            "payment_id": 16,
+            "book_id": 3,
+            "lending_date": "02-08-2024",
+            "lending_period": 15,
+            "total_fee": 164.85
+        }
+    }
+}
